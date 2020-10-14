@@ -1,42 +1,1111 @@
 {
-  "name": "SkillTwo",
   "intents": [
     {
-      "intent": "getFood",
+      "intent": "add_reminder",
       "examples": [
         {
-          "text": "i want to eat food"
+          "text": "book a room"
         },
         {
-          "text": "how do i get food"
+          "text": "can you remind me to call the doctor tomorrow?"
         },
         {
-          "text": "i need to eat"
+          "text": "can you remind me to put the clothes in the dryer when I get home?"
+        },
+        {
+          "text": "I need to remember to pay the bills tonight"
+        },
+        {
+          "text": "I need to talk to John tonight, can you remind me?"
+        },
+        {
+          "text": "remind me to look for flights for Florida"
+        },
+        {
+          "text": "remind me to take out the trash"
         }
       ],
-      "description": "How to get Food"
+      "description": "Create a reminder to do something. I'll send myself an email."
+    },
+    {
+      "intent": "Angebote",
+      "examples": [
+        {
+          "text": "Angebote"
+        }
+      ]
+    },
+    {
+      "intent": "Auskunft",
+      "examples": [
+        {
+          "text": "Auskunft"
+        },
+        {
+          "text": "I need a room"
+        },
+        {
+          "text": "I need a Workspace"
+        },
+        {
+          "text": "I want to book a room"
+        },
+        {
+          "text": "Room"
+        },
+        {
+          "text": "Where can I get a room"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Außerhalb_der_Website",
+      "examples": [
+        {
+          "text": "Außerhalb der Website"
+        },
+        {
+          "text": "Online Auftritt"
+        },
+        {
+          "text": "Social Media Accounts"
+        },
+        {
+          "text": "Social Media Auftritt"
+        },
+        {
+          "text": "Soziale Medien"
+        },
+        {
+          "text": "Wo ist das E-Commerce Institut noch vertreten"
+        },
+        {
+          "text": "Wo kann ich außerhalb der Website mehr erfahren"
+        }
+      ]
+    },
+    {
+      "intent": "Bachelor-Studiengänge",
+      "examples": [
+        {
+          "text": "Bachelor-Studiengänge"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Beiträge",
+      "examples": [
+        {
+          "text": "Aktuelles"
+        },
+        {
+          "text": "Beitrag"
+        },
+        {
+          "text": "Beiträge"
+        },
+        {
+          "text": "Was ist aktuell"
+        }
+      ],
+      "description": "Beiträge Startseite"
+    },
+    {
+      "intent": "Danke",
+      "examples": [
+        {
+          "text": "Auf Wiedersehen"
+        },
+        {
+          "text": "Danke"
+        },
+        {
+          "text": "Danke für die Auskunft"
+        },
+        {
+          "text": "Danke für die Hilfe"
+        },
+        {
+          "text": "Ich bedanke mich"
+        },
+        {
+          "text": "Schönen Tag noch"
+        },
+        {
+          "text": "Vielen Dank"
+        }
+      ]
+    },
+    {
+      "intent": "E-Commerce_studieren",
+      "examples": [
+        {
+          "text": "E-Commerce studieren"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Facebook",
+      "examples": [
+        {
+          "text": "Facebook"
+        }
+      ],
+      "description": "Facebook"
+    },
+    {
+      "intent": "Firmenname_erkennen",
+      "examples": [
+        {
+          "text": "Apple"
+        },
+        {
+          "text": "Auskunft"
+        },
+        {
+          "text": "Der Name des Unternehmens lautet Stein Gmbh"
+        },
+        {
+          "text": "Für Isana"
+        },
+        {
+          "text": "Gavisio"
+        },
+        {
+          "text": "Hermann GmbH"
+        },
+        {
+          "text": "Lurex AG"
+        },
+        {
+          "text": "Unser Unternehmen heißt Fontech"
+        },
+        {
+          "text": "Vodafone ist der Name"
+        },
+        {
+          "text": "Volvic lautet das Unternehmen"
+        },
+        {
+          "text": "Wir heißen Bosh"
+        }
+      ]
+    },
+    {
+      "intent": "Geibel",
+      "examples": [
+        {
+          "text": "Prof. Geibel"
+        }
+      ]
+    },
+    {
+      "intent": "Instagram",
+      "examples": [
+        {
+          "text": "IG"
+        },
+        {
+          "text": "Insta"
+        },
+        {
+          "text": "Instagram"
+        }
+      ],
+      "description": "Instagram"
+    },
+    {
+      "intent": "Kontaktdaten",
+      "examples": [
+        {
+          "text": "E-Mail"
+        },
+        {
+          "text": "Handynummer"
+        },
+        {
+          "text": "Ich benötige eine Mail Adresse"
+        },
+        {
+          "text": "ich benötige Kontaktdaten"
+        },
+        {
+          "text": "Ich brauche eine E-Mail Adresse"
+        },
+        {
+          "text": "Ich brauche eine Nummer"
+        },
+        {
+          "text": "Ich brauche eine Telefonnummer"
+        },
+        {
+          "text": "Ich möchte jemanden anrufen"
+        },
+        {
+          "text": "Ich möchte jemanden kontaktieren"
+        },
+        {
+          "text": "Kontakt"
+        },
+        {
+          "text": "Kontaktdaten"
+        },
+        {
+          "text": "Nummer"
+        },
+        {
+          "text": "Telefon"
+        },
+        {
+          "text": "Telefonnummer"
+        },
+        {
+          "text": "wie erreiche ich jemanden telefonisch"
+        },
+        {
+          "text": "Wie kann ich Ihnen eine Mail senden"
+        },
+        {
+          "text": "Wie kann ich Sie mobil erreichen"
+        }
+      ]
+    },
+    {
+      "intent": "LinkedIn",
+      "examples": [
+        {
+          "text": "LinkedIn"
+        }
+      ],
+      "description": "LinkedIn"
+    },
+    {
+      "intent": "Master-Studiengänge",
+      "examples": [
+        {
+          "text": "Master-Studiengänge"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Mission",
+      "examples": [
+        {
+          "text": "Haben Sie eine Mission"
+        },
+        {
+          "text": "Hat das Institut eine Mission"
+        },
+        {
+          "text": "Mission"
+        },
+        {
+          "text": "Was ist die Mission des E-Commerce Instituts"
+        },
+        {
+          "text": "Wie lautet die Mission"
+        },
+        {
+          "text": "Wie lautet eure Mission"
+        },
+        {
+          "text": "Wofür steht das E-Commerce Institut"
+        }
+      ]
+    },
+    {
+      "intent": "Mitarbeiterinfo",
+      "examples": [
+        {
+          "text": "Antonia Biel"
+        },
+        {
+          "text": "Dominik Große Holtforth"
+        },
+        {
+          "text": "Experte"
+        },
+        {
+          "text": "Geibel"
+        },
+        {
+          "text": "Heinz Walterscheid"
+        },
+        {
+          "text": "Hoffmann"
+        },
+        {
+          "text": "Ich benötige einen Ansprechpartner"
+        },
+        {
+          "text": "Ich möchte einen Mitarbeiter kontaktieren"
+        },
+        {
+          "text": "Informationen über Mitarbeiter"
+        },
+        {
+          "text": "Kracht"
+        },
+        {
+          "text": "Mitarbeiterinfo"
+        },
+        {
+          "text": "Mit wem kann ich reden"
+        },
+        {
+          "text": "Natália Manczyk"
+        },
+        {
+          "text": "Nein"
+        },
+        {
+          "text": "Prof. Dr. Dominik Große Holtforth"
+        },
+        {
+          "text": "Prof. Dr. Heinz Walterscheid"
+        },
+        {
+          "text": "Prof. Dr. Richard Geibel"
+        },
+        {
+          "text": "Prof. Dr. Sascha Hoffmann"
+        },
+        {
+          "text": "Prof Geibel"
+        },
+        {
+          "text": "Richard Geibel"
+        },
+        {
+          "text": "Robin Kracht"
+        },
+        {
+          "text": "Sascha Hoffmann"
+        },
+        {
+          "text": "Studentische Hilfskräfte"
+        },
+        {
+          "text": "Walterscheid"
+        },
+        {
+          "text": "Werkstudent"
+        },
+        {
+          "text": "Wer sind die Mitarbeiter des Instituts"
+        }
+      ]
+    },
+    {
+      "intent": "News",
+      "examples": [
+        {
+          "text": "Aktuell"
+        },
+        {
+          "text": "Aktuelle News"
+        },
+        {
+          "text": "E-commerce Institut News"
+        },
+        {
+          "text": "Neuigkeiten"
+        },
+        {
+          "text": "Neuigkeiten des Ecommerce Instituts"
+        },
+        {
+          "text": "News"
+        },
+        {
+          "text": "Was gibt es neues beim E-Commerce Institut"
+        },
+        {
+          "text": "Welche News gibt es"
+        },
+        {
+          "text": "Wo finde ich Neuigkeiten über das E-Commerce Institut"
+        }
+      ]
+    },
+    {
+      "intent": "Presse",
+      "examples": [
+        {
+          "text": "Presse"
+        },
+        {
+          "text": "Presseportal"
+        }
+      ],
+      "description": "Presse"
+    },
+    {
+      "intent": "response_change",
+      "examples": [
+        {
+          "text": "change it"
+        },
+        {
+          "text": "I want to modify"
+        },
+        {
+          "text": "I want to rewrite it"
+        },
+        {
+          "text": "I want to set a different one"
+        },
+        {
+          "text": "let's try again"
+        },
+        {
+          "text": "modify"
+        },
+        {
+          "text": "no, I want to change it"
+        },
+        {
+          "text": "no, I want to do it again"
+        },
+        {
+          "text": "no, let me tell you again"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "response_no",
+      "examples": [
+        {
+          "text": "exit"
+        },
+        {
+          "text": "forget it"
+        },
+        {
+          "text": "I don't think so"
+        },
+        {
+          "text": "incorrect"
+        },
+        {
+          "text": "Ja"
+        },
+        {
+          "text": "nah"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "nope"
+        },
+        {
+          "text": "not"
+        },
+        {
+          "text": "not really"
+        },
+        {
+          "text": "not right"
+        },
+        {
+          "text": "quit"
+        },
+        {
+          "text": "scratch that"
+        },
+        {
+          "text": "that's wrong"
+        }
+      ]
+    },
+    {
+      "intent": "response_yes",
+      "examples": [
+        {
+          "text": "correct"
+        },
+        {
+          "text": "exactly"
+        },
+        {
+          "text": "I guess"
+        },
+        {
+          "text": "I suppose"
+        },
+        {
+          "text": "of course"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "okay"
+        },
+        {
+          "text": "okie dokie"
+        },
+        {
+          "text": "perfect"
+        },
+        {
+          "text": "right"
+        },
+        {
+          "text": "sounds good"
+        },
+        {
+          "text": "sure"
+        },
+        {
+          "text": "that's right"
+        },
+        {
+          "text": "yah"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "yup"
+        }
+      ]
+    },
+    {
+      "intent": "RoomBooking",
+      "examples": [
+        {
+          "text": "I need a room"
+        },
+        {
+          "text": "I need a Workspace"
+        },
+        {
+          "text": "I want to book a room"
+        },
+        {
+          "text": "Room"
+        },
+        {
+          "text": "Where can I get a room"
+        }
+      ]
+    },
+    {
+      "intent": "SocialMedia",
+      "examples": [
+        {
+          "text": "Social Media"
+        }
+      ],
+      "description": "Social Media"
+    },
+    {
+      "intent": "Soundcloud",
+      "examples": [
+        {
+          "text": "Audio"
+        },
+        {
+          "text": "Podcast"
+        },
+        {
+          "text": "Soundcloud"
+        }
+      ]
+    },
+    {
+      "intent": "Startseite",
+      "examples": [
+        {
+          "text": "Ausgangsseite"
+        },
+        {
+          "text": "Ich möchte zur Ausgangsseite"
+        },
+        {
+          "text": "Ich möchte zur Startseite"
+        },
+        {
+          "text": "Startseite"
+        },
+        {
+          "text": "Wie komme ich zur Startseite"
+        }
+      ]
+    },
+    {
+      "intent": "Studium",
+      "examples": [
+        {
+          "text": "Studium"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Telefonnummer_erkennen",
+      "examples": [
+        {
+          "text": "0179 3737388"
+        },
+        {
+          "text": "0211 238373"
+        },
+        {
+          "text": "+2113934944"
+        },
+        {
+          "text": "+491728393949"
+        },
+        {
+          "text": "Bitte 0173839390 anrufen"
+        },
+        {
+          "text": "Die Nummer lautet 017839272"
+        },
+        {
+          "text": "Melden Sie sich bei 0211938373"
+        },
+        {
+          "text": "Melden Sie sich unter 0221937373"
+        },
+        {
+          "text": "Rufen Sie bei +4916738393 an"
+        },
+        {
+          "text": "Telefonnummer: 0183743647"
+        }
+      ]
+    },
+    {
+      "intent": "Walterscheid",
+      "examples": [
+        {
+          "text": "Prof. Dr. Walterscheid"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Workshops",
+      "examples": [
+        {
+          "text": "Bieten Sie Seminare an"
+        },
+        {
+          "text": "bietet ihr workshops an"
+        },
+        {
+          "text": "Gibt es auch Seminare"
+        },
+        {
+          "text": "gibt es workshops"
+        },
+        {
+          "text": "Ich benötige workshops"
+        },
+        {
+          "text": "ich suche nach workshops"
+        },
+        {
+          "text": "mich interessieren workshops"
+        },
+        {
+          "text": "Workshop"
+        },
+        {
+          "text": "Workshops"
+        }
+      ]
+    },
+    {
+      "intent": "XING",
+      "examples": [
+        {
+          "text": "Ich möchte mich über XING vernetzen"
+        },
+        {
+          "text": "XING"
+        }
+      ],
+      "description": "XING"
+    },
+    {
+      "intent": "Youtube",
+      "examples": [
+        {
+          "text": "Ich suche nach dem Youtube Kanal"
+        },
+        {
+          "text": "Video"
+        },
+        {
+          "text": "Videos"
+        },
+        {
+          "text": "Youtube"
+        }
+      ],
+      "description": "Youtube"
     }
   ],
-  "entities": [],
-  "language": "en",
+  "entities": [
+    {
+      "entity": "Angebote",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Strategie",
+          "synonyms": [
+            "Plan",
+            "Strategy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Workshop",
+          "synonyms": [
+            "Weiterbildung"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "AnythingElse",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Angebote",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mitarbeiterinfo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Social Media Profile",
+          "synonyms": [
+            "Social Media Kanäle"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Studium",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Website Inhalte",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "BacheloroderMaster",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Bachelor",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Master",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Beiträge",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Aktuelles",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Beitrag",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "News",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "BeiträgeJaNein",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Ja",
+          "synonyms": [
+            "Ja"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nein",
+          "synonyms": [
+            "Nein"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "JaNein",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Ja",
+          "synonyms": [
+            "Ja"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nein",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Yes",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Mitarbeiter",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Antonia Biel",
+          "synonyms": [
+            "Antonia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Natália Manczyk",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Prof. Dr. Dominik Große Holtforth",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Prof. Dr. Heinz Walterscheid",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Prof. Dr. Richard Geibel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Prof. Dr. Sascha Hoffmann",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Robin Kracht",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "MitarbeiterYesNo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Ja",
+          "synonyms": [
+            "ja",
+            "jo",
+            "yes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nein",
+          "synonyms": [
+            "ne",
+            "nein",
+            "no",
+            "nope"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "News",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "NewsJaNein",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Ja",
+          "synonyms": [
+            "Ja"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nein",
+          "synonyms": [
+            "Nein"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Online_Auftritt",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Soundcloud",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "Presse",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Ja",
+          "synonyms": [
+            "Ja"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nein",
+          "synonyms": [
+            "Nein"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Presse",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "SocialMediaKanäle",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Facebook",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Instagram",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LinkedIn",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Soundcloud",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Spotify",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Xing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "YouTube",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Studium",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Digital Management",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "E-Commerce",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    }
+  ],
   "metadata": {
     "api_version": {
-      "major_version": "v1",
-      "minor_version": "2018-07-10"
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
     }
   },
-  "skill_id": "58c5e2fb-d061-4dfb-a9b2-d2fadfca49e8",
-  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   "dialog_nodes": [
     {
       "type": "standard",
-      "title": "How to Get Food",
+      "title": "Anything else",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "User wants to get food"
+                "text": "Sorry, I didn't get that. Right now, I can only help you with reminders. You can say something like 'remind me to call Mom' or 'can you remind me to take out the trash?'..."
               }
             ],
             "response_type": "text",
@@ -44,33 +1113,2029 @@
           }
         ]
       },
-      "parent": "node_2_1571230601633",
-      "conditions": "#getFood",
-      "dialog_node": "node_9_1571230613968"
+      "parent": "node_2_1592322347489",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_3_1592323784519"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1592324543842",
+      "context": {
+        "time": "@sys-time"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_10_1592324543845"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please tell me the number of people who will appear."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1592324582366",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1592324582369",
+      "previous_sibling": "handler_7_1592324582369"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please tell me the time you want to book a room."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_9_1592324543842",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1592324543845",
+      "previous_sibling": "handler_10_1592324543845"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1592324582366",
+      "context": {
+        "number": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_7_1592324582369"
+    },
+    {
+      "type": "folder",
+      "title": "Call to Action (Verkäufe)",
+      "dialog_node": "node_10_1602165599189",
+      "previous_sibling": "node_8_1602446785259"
+    },
+    {
+      "type": "standard",
+      "title": "Strategie",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Die E-Commerce Strategie ist entscheidend, um langfristig mit einem Onlineshop profitabel zu sein. Sie umfasst das Geschäftsmodell, Alleinstellungsmerkmale und  Erfolgsfaktoren, die Unternehmen an die Spitze des Wettbewerbs bringen. Eine erfolgreiche E-Commerce Strategie orientiert sich an Kunden und Wettbewerbern und setzt die Erfolgsfaktoren der Digitalisierung um.\n \nDas E-Commerce-Institut unterstützt sie bei der Entwicklung ihrer Erfolgsstrategie und zeigt Wege zur Umsetzung und mehr Profitabilität im E-Commerce.\n \nUnter dem folgenden <a href=\"https://ecommerceinstitut.de/e-commerce-strategie/\" >Link</a> erfahren Sie mehr zu diesem Thema."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ja",
+                "value": {
+                  "input": {
+                    "text": "Ja"
+                  }
+                }
+              },
+              {
+                "label": "Nein",
+                "value": {
+                  "input": {
+                    "text": "Nein"
+                  }
+                }
+              }
+            ],
+            "description": "Haben Sie das passende Angebot gefunden?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1602165626283",
+      "conditions": "@Angebote:Strategie",
+      "dialog_node": "node_10_1602166154121",
+      "previous_sibling": "node_1_1602165679203"
+    },
+    {
+      "type": "standard",
+      "title": "Nein",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_4_1602169351030",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1602156806741"
+      },
+      "conditions": "@MitarbeiterYesNo:Nein",
+      "dialog_node": "node_10_1602170542084",
+      "previous_sibling": "node_9_1602170462680"
+    },
+    {
+      "type": "standard",
+      "title": "Prof. Dr. Heinz Walterscheid",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1602156791421",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1602169351030"
+      },
+      "conditions": "#Walterscheid",
+      "dialog_node": "node_10_1602170695547",
+      "previous_sibling": "node_3_1602158409294"
+    },
+    {
+      "type": "standard",
+      "title": "Antonia Biel",
+      "output": {
+        "generic": [
+          {
+            "title": "Antonia Biel ist Studentin im Masterstudiengang Digital Management an der Hochschule Fresenius Köln. Seit 2019 arbeitet sie als studentische Hilfskraft am E-Commerce Institut. Dabei ist sie insbesondere verantwortlich für die Recherche und Veröffentlichung von Artikeln, Interviews und vielem mehr auf dem ECI News-Blog. ",
+            "source": "https://ecommerceinstitut.de/wp-content/uploads/2020/06/Biel-Antonia.jpeg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": " E-Mail: <a href=\"mailto:info\\@ecommerceinstitut.com\">info\\@ecommerceinstitut.com</a>\nWeitere Infos: <a href=\"https://ecommerceinstitut.de/studentische-hilfskraefte/\" >Studentische Hilfskräfte</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ja",
+                "value": {
+                  "input": {
+                    "text": "Ja"
+                  }
+                }
+              },
+              {
+                "label": "Nein",
+                "value": {
+                  "input": {
+                    "text": "Nein"
+                  }
+                }
+              }
+            ],
+            "description": "Haben Sie nach diesem Mitarbeiter gesucht?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1602156806741",
+      "conditions": "@Mitarbeiter:(Antonia Biel)",
+      "dialog_node": "node_10_1602429093321",
+      "previous_sibling": "node_7_1602428715412"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oh. Das ist schade! Kann ich sonst noch weiterhelfen?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1602435516394",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1602517247505"
+      },
+      "conditions": "@NewsJaNein:Nein",
+      "dialog_node": "node_10_1602435625955"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfekt. Das freut mich!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1602435516394",
+      "conditions": "@NewsJaNein:Ja",
+      "dialog_node": "node_10_1602435663659",
+      "previous_sibling": "node_10_1602435625955"
+    },
+    {
+      "type": "standard",
+      "title": "Medien- und Kommunikationsmanagement",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Informationen erhalten Sie hier:"
+              },
+              {
+                "text": "https://www.hs-fresenius.de/themenwelt/medien/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1602435319818",
+      "dialog_node": "node_10_1602435744392"
+    },
+    {
+      "type": "standard",
+      "title": "Nein",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oh, das tut mir Leid! 🙁 Versuchen Sie es bitte erneut mit einem anderen Wortlaut. Ich bin leider noch nicht perfekt, lerne aber täglich dazu. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1602441714629",
+      "conditions": "@Youtube:Nein",
+      "dialog_node": "node_10_1602441890309",
+      "previous_sibling": "node_3_1602441838973"
+    },
+    {
+      "type": "standard",
+      "title": "No, change it",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK, we can change it... What would you want me to remind you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1546530407565",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1546542011168"
+      },
+      "conditions": "#response_change",
+      "dialog_node": "node_1_1546532166373",
+      "previous_sibling": "node_6_1546531855877"
+    },
+    {
+      "type": "standard",
+      "title": "Email sent",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cool! I just sent your request to one of our service lounge employees. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1546531855877",
+      "metadata": {},
+      "conditions": "$cf_response && $cf_response.code == 200",
+      "dialog_node": "node_1_1546534141746"
+    },
+    {
+      "type": "standard",
+      "title": "Nein",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1602156886933",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1602156806741"
+      },
+      "conditions": "@MitarbeiterYesNo:Nein",
+      "dialog_node": "node_1_1602157047564",
+      "previous_sibling": "node_7_1602156950648"
+    },
+    {
+      "type": "standard",
+      "title": "Robin Kracht",
+      "output": {
+        "generic": [
+          {
+            "title": "Seit Ende 2018 ist Robin Kracht gemeinsam mit Prof. Dr. Geibel für die Leitung vom E-Commerce Institut Köln verantwortlich. ",
+            "source": "https://ecommerceinstitut.de/wp-content/uploads/2020/06/IMG_8225-1_pp.jpg",
+            "description": "",
+            "response_type": "image"
+          },
+          {
+            "title": "Tel: <a href=\"tel:+4917632325943\">+49 176 3232 5943</a>\n E-Mail: <a href=\"mailto:info\\@ecommerceinstitut.com\">info\\@ecommerceinstitut.com</a> \n Weitere Infos: <a href=\"https://ecommerceinstitut.de/e-commerce-institut/robin-kracht-leiter-des-e-commerce-instituts/\" >Robin Kracht</a>",
+            "options": [
+              {
+                "label": "Ja",
+                "value": {
+                  "input": {
+                    "text": "ja"
+                  }
+                }
+              },
+              {
+                "label": "Nein",
+                "value": {
+                  "input": {
+                    "text": "nein"
+                  }
+                }
+              }
+            ],
+            "description": "Hast du nach diesem Mitarbeiter gesucht?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1602156806741",
+      "conditions": "@Mitarbeiter:(Robin Kracht)",
+      "dialog_node": "node_1_1602158034374",
+      "previous_sibling": "node_6_1602156886933"
+    },
+    {
+      "type": "standard",
+      "title": "Angebot Workshop",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Andauerndes Wachstum, aber auch Wettbewerb und eine hohe Dynamik prägen den E-Commerce. Damit Sie und Ihr Unternehmen Teil des E-Commerce-Erfolgs werden, ist aktuelles Wissen wichtiger denn je. Dazu bietet der Workshop des E-Commerce Instituts einen ganz neuen Ansatz. Weniger Katalogwissen von der Stange als vielmehr ein Programm, das ein Schwungrad für Wachstum und Erfolg im E-Commerce in Gang setzt, das ist der USP unseres E-Commerce-Workshops. \n \nWeitere Informationen zu Workshop Angeboten des E-Commerce Instituts finden Sie unter dem folgenden <a href=\"https://ecommerceinstitut.de/e-commerce-workshop/\" >Link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ja",
+                "value": {
+                  "input": {
+                    "text": "Ja"
+                  }
+                }
+              },
+              {
+                "label": "Nein",
+                "value": {
+                  "input": {
+                    "text": "Nein"
+                  }
+                }
+              }
+            ],
+            "description": "Haben Sie das passende Angebot gefunden?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1602165626283",
+      "conditions": "@Angebote:Workshop",
+      "dialog_node": "node_1_1602165679203"
+    },
+    {
+      "type": "standard",
+      "title": "Ja",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_10_1602166154121",
+      "conditions": "@MitarbeiterYesNo:Ja",
+      "dialog_node": "node_1_1602166405589"
+    },
+    {
+      "type": "standard",
+      "title": "Mission",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Die Mission des E-Commerce Instituts ist es, auf Grundlage empirischer Forschung und anwendungsbezogener Studien mit und für Unternehmen, bei der Entwicklung und Implementierung zukunftsweisender und nachhaltiger E-Commerce-Projekte zu helfen. Weitere Informationen zu unserer Mission finden Sie <a href=\"https://ecommerceinstitut.de/mission-e-commerce/\" >hier</a>"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1602519360759",
+      "conditions": "#Mission",
+      "dialog_node": "node_1_1602432403582",
+      "previous_sibling": "node_2_1602432702193"
+    },
+    {
+      "type": "standard",
+      "title": "Nein",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oh, das tut mir Leid! 🙁 Versuchen Sie es bitte erneut mit einem anderen Wortlaut. Ich bin leider noch nicht perfekt, lerne aber täglich dazu. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1602435243730",
+      "conditions": "@Instagram:Nein",
+      "dialog_node": "node_1_1602435769950",
+      "previous_sibling": "node_7_1602435617844"
+    },
+    {
+      "type": "standard",
+      "title": "LinkedIn",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Klicken Sie <a href=\"https://www.linkedin.com/company/e-commerce-institut-köln\" >hier</a>, um sich mit uns auf LinkedIn zu verbinden."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Haben Sie den passenden Social Media Kanal gefunden?",
+            "options": [
+              {
+                "label": "Ja",
+                "value": {
+                  "input": {
+                    "text": "Ja"
+                  }
+                }
+              },
+              {
+                "label": "Nein",
+                "value": {
+                  "input": {
+                    "text": "Nein"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1602511956079",
+      "conditions": "@SocialMediaKanäle:LinkedIn",
+      "dialog_node": "node_1_1602512521883"
+    },
+    {
+      "type": "standard",
+      "title": "Ja - copy1",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1602516658673",
+      "conditions": "@MitarbeiterYesNo:Ja",
+      "dialog_node": "node_1_1602516917116"
+    },
+    {
+      "type": "standard",
+      "title": "No, cancel",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK, I'll be here in case you'd like me to send you any other reminders..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1546530407565",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_2_1546532432186",
+      "previous_sibling": "node_1_1546532166373"
+    },
+    {
+      "type": "standard",
+      "title": "Email not sent",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Uh oh... something happened... Try again later..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1546531855877",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_2_1546534218626",
+      "previous_sibling": "node_1_1546534141746"
+    },
+    {
+      "type": "standard",
+      "title": "Set reminder",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_3_1592323784519",
+      "context": {
+        "reminder": "New booking request"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1546530407565"
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1546542011168"
+    },
+    {
+      "type": "folder",
+      "title": "Send E-Mail Reminder",
+      "dialog_node": "node_2_1592322347489",
+      "previous_sibling": "node_6_1602156791421"
+    },
+    {
+      "type": "standard",
+      "title": "Ja - copy1",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1602158034374",
+      "conditions": "@MitarbeiterYesNo:Ja",
+      "dialog_node": "node_2_1602158142152"
+    },
+    {
+      "type": "standard",
+      "title": "Beiträge",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das E-Commerce Institut veröffentlicht regelmäßig aktuelle Beiträge! Spannende Neuigkeiten finden Sie <a href=\"https://ecommerceinstitut.de\" >hier</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Haben Sie hiernach gesucht? ",
+            "options": [
+              {
+                "label": "Ja",
+                "value": {
+                  "input": {
+                    "text": "Ja"
+                  }
+                }
+              },
+              {
+                "label": "Nein",
+                "value": {
+                  "input": {
+                    "text": "Nein"
+                  }
+                }
+              }
+            ],
+            "description": "Haben Sie hiernach gesucht? ",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1602519360759",
+      "conditions": "#Beiträge",
+      "dialog_node": "node_2_1602432702193",
+      "previous_sibling": "node_4_1602156751732"
+    },
+    {
+      "type": "standard",
+      "title": "Alumni",
+      "parent": "node_3_1602433561091",
+      "dialog_node": "node_2_1602435136379",
+      "previous_sibling": "node_7_1602435085533"
+    },
+    {
+      "type": "standard",
+      "title": "Logistik und Handel",
+      "parent": "node_5_1602435319818",
+      "dialog_node": "node_2_1602435751243",
+      "previous_sibling": "node_9_1602435747091"
+    },
+    {
+      "type": "standard",
+      "title": "Corporate Communication",
+      "parent": "node_5_1602435322741",
+      "dialog_node": "node_2_1602435925747",
+      "previous_sibling": "node_7_1602435923936"
+    },
+    {
+      "type": "standard",
+      "title": "Ja",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1602512521883",
+      "conditions": "@MitarbeiterYesNo:Ja",
+      "dialog_node": "node_2_1602512793112"
+    },
+    {
+      "type": "standard",
+      "title": "Nein - copy1",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1602516658673",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1602511956079"
+      },
+      "conditions": "@MitarbeiterYesNo:Nein",
+      "dialog_node": "node_2_1602516928395",
+      "previous_sibling": "node_1_1602516917116"
+    },
+    {
+      "type": "standard",
+      "title": "Initial configuration",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1592322347489",
+      "context": {
+        "email": "e.commercecologne\\@gmail.com",
+        "private": {
+          "cf_creds": {
+            "api_key": "98f1799a-129e-4c23-bf65-a436e6cdb036:pjv4yNPj53AiLA6KjPbT293eI7wSlSjTSgoxnrqeRg6SVeCutoo87OBZxJPdzSDN"
+          }
+        },
+        "reminder": "null",
+        "destination_email": "e.commercecologne\\@gmail.com"
+      },
+      "metadata": {},
+      "conditions": "false",
+      "dialog_node": "node_3_1546532706022",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you. Your details will be passed to a Service Lounge employee who will check the availability of your details. You will be informed shortly by e-mail. Please note that room bookings must always be extended after 1.30 hours."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1592322347489",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1546542011168"
+      },
+      "conditions": "#Auskunft",
+      "dialog_node": "node_3_1592323784519",
+      "previous_sibling": "node_3_1546532706022"
+    },
+    {
+      "type": "standard",
+      "title": "Nein - copy1",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1602158034374",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1602156806741"
+      },
+      "conditions": "@MitarbeiterYesNo:Nein",
+      "dialog_node": "node_3_1602158160614",
+      "previous_sibling": "node_2_1602158142152"
+    },
+    {
+      "type": "standard",
+      "title": "Kontaktdaten",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gerne können Sie uns unter folgenden Kontaktdaten kontaktieren: \n Tel: <a href=\"Tel:0221 973199722\">0221 973199722</a> \n Mobil: 0171 1453333 \n E-Mail: <a href=\"mailto:info\\@ecommerceinstitut.com\">info\\@ecommerceinstitut.com</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Sie können zudem gerne einen bestimmten Mitarbeiter des E-Commerce Instituts direkt kontaktieren:",
+            "options": [
+              {
+                "label": "Gerne",
+                "value": {
+                  "input": {
+                    "text": "Ja"
+                  }
+                }
+              },
+              {
+                "label": "Nein, danke",
+                "value": {
+                  "input": {
+                    "text": "Nein"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1602156791421",
+      "conditions": "#Kontaktdaten",
+      "dialog_node": "node_3_1602158409294",
+      "previous_sibling": "node_9_1602158317630"
+    },
+    {
+      "type": "standard",
+      "title": "Angebote",
+      "output": {
+        "generic": [
+          {
+            "title": "Wählen Sie eins unserer Angebote aus: ",
+            "options": [
+              {
+                "label": "E-Commerce Workshops",
+                "value": {
+                  "input": {
+                    "text": "Workshop"
+                  }
+                }
+              },
+              {
+                "label": "E-Commerce Strategie",
+                "value": {
+                  "input": {
+                    "text": "Strategie"
+                  }
+                }
+              }
+            ],
+            "preference": "dropdown",
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1602165599189",
+      "conditions": "#Angebote",
+      "dialog_node": "node_3_1602165626283"
+    },
+    {
+      "type": "standard",
+      "title": "Nein",
+      "parent": "node_7_1602428715412",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1602156806741"
+      },
+      "conditions": "@MitarbeiterYesNo:Nein",
+      "dialog_node": "node_3_1602432360674",
+      "previous_sibling": "node_6_1602432208427"
+    },
+    {
+      "type": "standard",
+      "title": "Studium",
+      "output": {
+        "generic": [
+          {
+            "title": "Wählen Sie aus unseren Optionen rund um's Studium:",
+            "options": [
+              {
+                "label": "E-Commerce studieren",
+                "value": {
+                  "input": {
+                    "text": "E-Commerce"
+                  }
+                }
+              },
+              {
+                "label": "E-Commerce Vorlesungen",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Abschlussarbeiten",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Dozenten",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Studenten",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Alumni",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Start-Ups",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "preference": "dropdown",
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1602165599189",
+      "conditions": "#Studium",
+      "dialog_node": "node_3_1602433561091",
+      "previous_sibling": "node_3_1602165626283"
+    },
+    {
+      "type": "standard",
+      "title": "Nein",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oh das ist schade. Kann ich sonst noch weiterhelfen?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1602432702193",
+      "conditions": "@BeiträgeJaNein:Nein",
+      "dialog_node": "node_3_1602433712442",
+      "previous_sibling": "node_5_1602433575486"
+    },
+    {
+      "type": "standard",
+      "title": "Ja",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das freut mich 👍🏼 Folgen Sie uns jetzt und und bleiben Sie immer up-to-date! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1602441714629",
+      "conditions": "@Youtube:Ja",
+      "dialog_node": "node_3_1602441838973"
+    },
+    {
+      "type": "standard",
+      "title": "Studium",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1602517247505",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1602433561091"
+      },
+      "conditions": "@AnythingElse:Studium",
+      "dialog_node": "node_3_1602519071428",
+      "previous_sibling": "node_5_1602518943566"
+    },
+    {
+      "type": "standard",
+      "title": "Startseite",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hier kommen Sie zur <a href=\"https://ecommerceinstitut.de/en/\" >Startseite</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1602519360759",
+      "conditions": "#Startseite",
+      "dialog_node": "node_4_1602156751732",
+      "previous_sibling": "node_8_1602432983796"
+    },
+    {
+      "type": "standard",
+      "title": "Mitarbeiterinfo",
+      "output": {
+        "generic": [
+          {
+            "title": "Wählen Sie einen unserer Mitarbeiter aus:",
+            "options": [
+              {
+                "label": "Prof. Dr. Richard Geibel, Institutsleiter",
+                "value": {
+                  "input": {
+                    "text": "Prof. Dr. Richard Geibel"
+                  }
+                }
+              },
+              {
+                "label": "Robin Kracht, RL Digitale Transformation",
+                "value": {
+                  "input": {
+                    "text": "Robin Kracht"
+                  }
+                }
+              },
+              {
+                "label": "Prof. Dr. Sascha Hoffmann",
+                "value": {
+                  "input": {
+                    "text": "Prof. Dr. Sascha Hoffmann"
+                  }
+                }
+              },
+              {
+                "label": "Prof. Dr. Heinz Walterscheid",
+                "value": {
+                  "input": {
+                    "text": "Prof. Dr. Heinz Walterscheid"
+                  }
+                }
+              },
+              {
+                "label": "Antonia Biel",
+                "value": {
+                  "input": {
+                    "text": "Antonia Biel"
+                  }
+                }
+              },
+              {
+                "label": "Natália Manczyk",
+                "value": {
+                  "input": {
+                    "text": "Natália Manczyk"
+                  }
+                }
+              },
+              {
+                "label": "Prof. Dr. Dominik Große Holtforth",
+                "value": {
+                  "input": {
+                    "text": "Prof. Dr. Dominik Große Holtforth"
+                  }
+                }
+              }
+            ],
+            "preference": "dropdown",
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1602156791421",
+      "conditions": "#Mitarbeiterinfo",
+      "dialog_node": "node_4_1602156806741"
+    },
+    {
+      "type": "standard",
+      "title": "Ja - copy1",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1602158207161",
+      "conditions": "@MitarbeiterYesNo:Ja",
+      "dialog_node": "node_4_1602158260054"
+    },
+    {
+      "type": "standard",
+      "title": "Prof. Dr. Heinz Walterscheid",
+      "output": {
+        "generic": [
+          {
+            "title": "Prof. Dr. Heinz Walterscheid ist Studiendekan und Programmverantwortlicher des Studiengangs Logistik & Handel an der Hochschule Fresenius. Er beschäftigt sich mit Fragen der Handelslogistik und der E-Commerce-Logistik.",
+            "source": "https://ecommerceinstitut.de/wp-content/uploads/2016/01/Prof.-Dr.-Heinz-Walterscheid_aktuell_klein-600-400.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "E-Mail: <a href=\"mailto: heinz.walterscheid\\@hs-fresenius.de\"> heinz.walterscheid\\@hs-fresenius.de</a>\nWeitere Infos: <a href=\"https://ecommerceinstitut.de/prof-dr-heinz-walterscheid/\" >Prof. Dr. Heinz Walterscheid</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ja",
+                "value": {
+                  "input": {
+                    "text": "Ja"
+                  }
+                }
+              },
+              {
+                "label": "Nein",
+                "value": {
+                  "input": {
+                    "text": "Nein"
+                  }
+                }
+              }
+            ],
+            "description": "Haben Sie nach diesem Mitarbeiter gesucht?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1602156806741",
+      "conditions": "@Mitarbeiter:(Prof. Dr. Heinz Walterscheid)",
+      "dialog_node": "node_4_1602169351030",
+      "previous_sibling": "node_6_1602158207161"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Super! Schön, dass ich weiterhelfen konnte."
+              },
+              {
+                "text": "Freut mich, dass ich weiterhelfen konnte!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1602429093321",
+      "conditions": "#response_yes",
+      "dialog_node": "node_4_1602431082705"
+    },
+    {
+      "type": "standard",
+      "title": "Digital Management",
+      "parent": "node_5_1602435322741",
+      "dialog_node": "node_4_1602435916630"
+    },
+    {
+      "type": "standard",
+      "title": "XING",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Klicken Sie <a href=\"https://www.xing.com/companies/e-commerceinstitutköln\" >hier</a> um sich mit uns auf XING zu verbinden."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Konnten Sie unseren Account finden?",
+            "options": [
+              {
+                "label": "Ja",
+                "value": {
+                  "input": {
+                    "text": "Ja"
+                  }
+                }
+              },
+              {
+                "label": "Nein",
+                "value": {
+                  "input": {
+                    "text": "Nein"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1602446785259",
+      "conditions": "#XING",
+      "dialog_node": "node_4_1602442555108",
+      "previous_sibling": "node_4_1602443830400"
+    },
+    {
+      "type": "standard",
+      "title": "LinkedIn",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_8_1602446785259",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1602512521883"
+      },
+      "conditions": "#LinkedIn",
+      "dialog_node": "node_4_1602443830400",
+      "previous_sibling": "node_5_1602444290506"
+    },
+    {
+      "type": "standard",
+      "title": "Confirm reminder",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You'd like me to delegate your request to a Service Lounge employee as a: $reminder. Is that right?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Yes, that's right.",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No, I want to change info.",
+                "value": {
+                  "input": {
+                    "text": "change"
+                  }
+                }
+              },
+              {
+                "label": "No, forget it.",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1592323784519",
+      "metadata": {},
+      "conditions": "$reminder != null",
+      "dialog_node": "node_5_1546530407565",
+      "previous_sibling": "node_2_1546542011168"
+    },
+    {
+      "type": "standard",
+      "title": "Nein - copy1",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1602158207161",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1602156806741"
+      },
+      "conditions": "@MitarbeiterYesNo:Nein",
+      "dialog_node": "node_5_1602158273095",
+      "previous_sibling": "node_4_1602158260054"
+    },
+    {
+      "type": "standard",
+      "title": "Nein",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1602430508790",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1602156806741"
+      },
+      "conditions": "@MitarbeiterYesNo:Nein",
+      "dialog_node": "node_5_1602431496043",
+      "previous_sibling": "node_9_1602431310148"
+    },
+    {
+      "type": "standard",
+      "title": "Ja",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Super! Hat mich gefreut."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1602432702193",
+      "conditions": "@BeiträgeJaNein:Ja",
+      "dialog_node": "node_5_1602433575486"
+    },
+    {
+      "type": "standard",
+      "title": "Ja",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Super! Freut mich, dass ich Ihnen weiterhelfen konnte 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1602432983796",
+      "conditions": "@Presse:Ja",
+      "dialog_node": "node_5_1602433585638"
+    },
+    {
+      "type": "standard",
+      "title": "Nein",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oh, das tut mir Leid! ☹️ Versuchen Sie es bitte mit einem anderen Wortlaut."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1602432983796",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1602517247505"
+      },
+      "conditions": "@Presse:Nein",
+      "dialog_node": "node_5_1602433702600",
+      "previous_sibling": "node_5_1602433585638"
+    },
+    {
+      "type": "standard",
+      "title": "Instagram",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Klicken Sie <a href=\"https://www.instagram.com/ecommerceinstitutkoeln/\" >hier</a> um zu unserem Instagram-Account zu gelangen. "
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Konnten Sie unseren Account finden?",
+            "options": [
+              {
+                "label": "Nein",
+                "value": {
+                  "input": {
+                    "text": "Nein"
+                  }
+                }
+              },
+              {
+                "label": "Ja",
+                "value": {
+                  "input": {
+                    "text": "Ja"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1602446785259",
+      "conditions": "#Instagram",
+      "dialog_node": "node_5_1602435243730",
+      "previous_sibling": "node_6_1602441714629"
+    },
+    {
+      "type": "standard",
+      "title": "Bachelor",
+      "output": {
+        "generic": [
+          {
+            "title": "Wählen Sie aus einem Bachelor-Studiengang:",
+            "options": [
+              {
+                "label": "Medien- und Kommunikationsmanagement",
+                "value": {
+                  "input": {
+                    "text": "Medien- und Kommunikationsmanagement"
+                  }
+                }
+              },
+              {
+                "label": "Betriebswirtschaftslehre",
+                "value": {
+                  "input": {
+                    "text": "Betriebswirtschaftslehre"
+                  }
+                }
+              },
+              {
+                "label": "Logistik und Handel",
+                "value": {
+                  "input": {
+                    "text": "Logistik und Handel"
+                  }
+                }
+              }
+            ],
+            "preference": "dropdown",
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1602435047246",
+      "conditions": "@BacheloroderMaster:Bachelor",
+      "dialog_node": "node_5_1602435319818"
+    },
+    {
+      "type": "standard",
+      "title": "Master",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1602435047246",
+      "conditions": "@BacheloroderMaster:Master",
+      "dialog_node": "node_5_1602435322741",
+      "previous_sibling": "node_5_1602435319818"
+    },
+    {
+      "type": "standard",
+      "title": "Facebook",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_8_1602446785259",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1602511956079"
+      },
+      "conditions": "#Facebook",
+      "dialog_node": "node_5_1602444290506",
+      "previous_sibling": "node_6_1602511956079"
+    },
+    {
+      "type": "standard",
+      "title": "Anything Else",
+      "output": {
+        "generic": [
+          {
+            "title": "Leider kann ich Ihnen dabei nicht weiterhelfen. Ich gebe Ihnen gerne Auskunft über die folgende Themen:",
+            "options": [
+              {
+                "label": "Angebote",
+                "value": {
+                  "input": {
+                    "text": "Angebote"
+                  }
+                }
+              },
+              {
+                "label": "Studium",
+                "value": {
+                  "input": {
+                    "text": "Studium"
+                  }
+                }
+              },
+              {
+                "label": "Mitarbeiterinformationen",
+                "value": {
+                  "input": {
+                    "text": "Mitarbeiterinfo"
+                  }
+                }
+              },
+              {
+                "label": "Online Auftritt",
+                "value": {
+                  "input": {
+                    "text": "Social Media Profile"
+                  }
+                }
+              },
+              {
+                "label": "Website Inhalte",
+                "value": {
+                  "input": {
+                    "text": "Website Inhalte"
+                  }
+                }
+              }
+            ],
+            "preference": "dropdown",
+            "description": "",
+            "response_type": "option"
+          },
+          {
+            "values": [
+              {
+                "text": "Bei weiteren Fragen können Sie uns gerne Kontaktieren unter:\nTel: <a href=\"Tel:0221 973199722\">0221 973199722</a> \n Mobil: 0171 1453333 \n E-Mail: <a href=\"mailto:info\\@ecommerceinstitut.com\">info\\@ecommerceinstitut.com</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1602517247505",
+      "previous_sibling": "node_2_1592322347489"
+    },
+    {
+      "type": "standard",
+      "title": "Angebote",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1602517247505",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1602165626283"
+      },
+      "conditions": "@AnythingElse:Angebote",
+      "dialog_node": "node_5_1602518943566"
+    },
+    {
+      "type": "standard",
+      "title": "Online Auftritt",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1602517247505",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1602511956079"
+      },
+      "conditions": "@AnythingElse:(Social Media Profile)",
+      "dialog_node": "node_5_1602519195400",
+      "previous_sibling": "node_3_1602519071428"
+    },
+    {
+      "type": "standard",
+      "title": "Yes, send email",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1546530407565",
+      "actions": [
+        {
+          "name": "kracht@ecommerceinstitut.de_dev/Examples/Test",
+          "type": "cloud_function",
+          "parameters": {
+            "time": "$time",
+            "email": "e.commercecologne\\@gmail.com",
+            "nrPeople": "$number",
+            "reminder": "book flights to paris",
+            "conversation_id": "1234-1234-1234"
+          },
+          "credentials": "$private.cf_creds",
+          "result_variable": "context.cf_response"
+        }
+      ],
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#response_yes",
+      "dialog_node": "node_6_1546531855877"
+    },
+    {
+      "type": "folder",
+      "title": "Kontaktdaten",
+      "dialog_node": "node_6_1602156791421",
+      "previous_sibling": "node_10_1602165599189"
+    },
+    {
+      "type": "standard",
+      "title": "Prof. Dr. Richard Geibel",
+      "output": {
+        "generic": [
+          {
+            "title": "Prof. Dr. Richard Geibel ist Professor für Entrepreneurship an der Hochschule Fresenius in Köln. Er ist verantwortlich für den internationalen Masterstudiengang Digitales Management und leitet das Competence Center Entrepreneurship. Seine Forschungsschwerpunkte liegen im Bereich der digitalen Transformation, des E-Commerce und des digitalen Entrepreneurships. Als Alumnus des MIT, Cambrigde, Mass., USA, arbeitet er regelmäßig mit Forschern der Sloan School of Management zusammen.",
+            "source": "https://ecommerceinstitut.de/wp-content/uploads/2019/07/Richard_Geibel.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Tel: <a href=\"tel:+49221973199722\">+49221 973 199 722</a> oder <a href=\"tel:+491711453333\">+49171 145 3333</a> \n E-Mail: <a href=\"mailto:info\\@ecommerceinstitut.com\">info\\@ecommerceinstitut.com</a>\nWeitere Infos: <a href=\"https://ecommerceinstitut.de/e-commerce-institut/prof-dr-richard-geibel/\" >Prof. Dr. Richard Geibel</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ja",
+                "value": {
+                  "input": {
+                    "text": "Ja"
+                  }
+                }
+              },
+              {
+                "label": "Nein",
+                "value": {
+                  "input": {
+                    "text": "nein"
+                  }
+                }
+              }
+            ],
+            "description": "Haben Sie nach diesem Mitarbeiter gesucht?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1602156806741",
+      "conditions": "@Mitarbeiter:(Prof. Dr. Richard Geibel)",
+      "dialog_node": "node_6_1602156886933"
+    },
+    {
+      "type": "standard",
+      "title": "Prof. Dr. Sascha Hoffmann",
+      "output": {
+        "generic": [
+          {
+            "title": "Als Dozent für Online Management an der Hochschule Fresenius in Hamburg beschäftigt sich Prof. Dr. Sascha Hoffmann mit Fragestellungen zum Online Marketing, E-Commerce und Produktmanagement.",
+            "source": "https://ecommerceinstitut.de/wp-content/uploads/2017/05/Dr.-Sascha-Hoffmann.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "E-Mail: <a href=\"mailto:sascha.hoffmann\\@hs-fresenius.de\">sascha.hoffmann\\@hs-fresenius.de</a>  \n Weitere Infos: <a href=\"https://ecommerceinstitut.de/prof-dr-sascha-hoffmann/\" >Prof. Dr. Sascha Hoffmann</a>",
+            "options": [
+              {
+                "label": "Ja",
+                "value": {
+                  "input": {
+                    "text": "Ja"
+                  }
+                }
+              },
+              {
+                "label": "Nein",
+                "value": {
+                  "input": {
+                    "text": "Nein"
+                  }
+                }
+              }
+            ],
+            "description": "Haben Sie nach diesem Mitarbeiter gesucht?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1602156806741",
+      "conditions": "@Mitarbeiter:(Prof. Dr. Sascha Hoffmann)",
+      "dialog_node": "node_6_1602158207161",
+      "previous_sibling": "node_1_1602158034374"
+    },
+    {
+      "type": "standard",
+      "title": "Ja",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Super! Schön, dass ich weiter helfen konnte."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1602428715412",
+      "conditions": "@MitarbeiterYesNo:Ja",
+      "dialog_node": "node_6_1602432208427"
+    },
+    {
+      "type": "standard",
+      "title": "E-Commerce studieren",
+      "output": {
+        "generic": [
+          {
+            "title": "Suchen Sie nach einem Bachelor- oder Masterstudiengang?",
+            "options": [
+              {
+                "label": "Bachelor",
+                "value": {
+                  "input": {
+                    "text": "Bachelor"
+                  }
+                }
+              },
+              {
+                "label": "Master",
+                "value": {
+                  "input": {
+                    "text": "Master"
+                  }
+                }
+              }
+            ],
+            "preference": "dropdown",
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1602433561091",
+      "conditions": "@Studium:E-Commerce",
+      "dialog_node": "node_6_1602435047246"
+    },
+    {
+      "type": "standard",
+      "title": "Vorlesungen",
+      "parent": "node_3_1602433561091",
+      "dialog_node": "node_6_1602435051134",
+      "previous_sibling": "node_6_1602435047246"
+    },
+    {
+      "type": "standard",
+      "title": "Abschlussarbeiten",
+      "parent": "node_3_1602433561091",
+      "dialog_node": "node_6_1602435053771",
+      "previous_sibling": "node_6_1602435051134"
+    },
+    {
+      "type": "standard",
+      "title": "Dozenten",
+      "parent": "node_3_1602433561091",
+      "dialog_node": "node_6_1602435055980",
+      "previous_sibling": "node_6_1602435053771"
+    },
+    {
+      "type": "standard",
+      "title": "News",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das E-Commerce Institut veröffentlicht regelmäßig informative Beiträge! Aktuelle News finden Sie <a href=\"https://ecommerceinstitut.de/news/\" >hier</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ja",
+                "value": {
+                  "input": {
+                    "text": "Ja"
+                  }
+                }
+              },
+              {
+                "label": "Nein",
+                "value": {
+                  "input": {
+                    "text": "Nein"
+                  }
+                }
+              }
+            ],
+            "description": "Haben Sie hiernach gesucht?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1602519360759",
+      "conditions": "#News",
+      "dialog_node": "node_6_1602435516394"
+    },
+    {
+      "type": "standard",
+      "title": "Youtube",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Klicken Sie <a href=\"https://www.youtube.com/channel/UCq4l-W127f1zMGooEjxMU1Q\" >hier</a> um zu unserem YouTube-Account zu gelangen. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Konnten Sie unseren Account finden?",
+            "options": [
+              {
+                "label": "Ja",
+                "value": {
+                  "input": {
+                    "text": "Ja"
+                  }
+                }
+              },
+              {
+                "label": "Nein",
+                "value": {
+                  "input": {
+                    "text": "Nein"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1602446785259",
+      "conditions": "#Youtube",
+      "dialog_node": "node_6_1602441714629",
+      "previous_sibling": "node_4_1602442555108"
+    },
+    {
+      "type": "standard",
+      "title": "Social Media Kanäle",
+      "output": {
+        "generic": [
+          {
+            "title": "Welcher Social Media Kanal interessiert Sie?",
+            "options": [
+              {
+                "label": "LinkedIn",
+                "value": {
+                  "input": {
+                    "text": "LinkedIn"
+                  }
+                }
+              },
+              {
+                "label": "Instagram",
+                "value": {
+                  "input": {
+                    "text": "Instagram"
+                  }
+                }
+              },
+              {
+                "label": "Facebook",
+                "value": {
+                  "input": {
+                    "text": "Facebook"
+                  }
+                }
+              },
+              {
+                "label": "Xing",
+                "value": {
+                  "input": {
+                    "text": "Xing"
+                  }
+                }
+              },
+              {
+                "label": "Soundcloud",
+                "value": {
+                  "input": {
+                    "text": "Soundcloud"
+                  }
+                }
+              },
+              {
+                "label": "Spotify",
+                "value": {
+                  "input": {
+                    "text": "Spotify"
+                  }
+                }
+              }
+            ],
+            "preference": "dropdown",
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1602446785259",
+      "conditions": "#Außerhalb_der_Website",
+      "dialog_node": "node_6_1602511956079"
+    },
+    {
+      "type": "standard",
+      "title": "Facebook",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Klicken Sie <a href=\"https://www.facebook.com/ECommerceInstitut/\" >hier</a>, um sich mit uns auf Facebook zu verbinden."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Haben Sie nach diesem Social Media Profil gesucht?",
+            "options": [
+              {
+                "label": "Ja",
+                "value": {
+                  "input": {
+                    "text": "Ja"
+                  }
+                }
+              },
+              {
+                "label": "Nein",
+                "value": {
+                  "input": {
+                    "text": "Nein"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1602511956079",
+      "conditions": "@SocialMediaKanäle:Facebook",
+      "dialog_node": "node_6_1602516658673",
+      "previous_sibling": "node_1_1602512521883"
+    },
+    {
+      "type": "standard",
+      "title": "Website Inhalte",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1602517247505",
+      "conditions": "@AnythingElse:(Website Inhalte)",
+      "dialog_node": "node_6_1602519298274",
+      "previous_sibling": "node_8_1602519261516"
     },
     {
       "type": "standard",
       "title": "Welcome",
       "output": {
-        "text": {
-          "values": [
-            "Hello. How can I help you?"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "conditions": "welcome",
-      "dialog_node": "Welcome",
-      "previous_sibling": "node_2_1571230646256"
-    },
-    {
-      "type": "standard",
-      "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Wants food for the 2nd Time. AGAIN"
+                "text": "Hallo, ich bin Eco. \nIch gebe Ihnen gerne Auskunft über das E-Commerce Institut Köln und leite Sie weiter, falls Ihre Fragen meine Kompetenzen übersteigen. Wie kann ich helfen? "
               }
             ],
             "response_type": "text",
@@ -78,39 +3143,471 @@
           }
         ]
       },
-      "conditions": "#getFood && input.text.contains(\"again\")",
+      "conditions": "welcome",
       "digress_in": "does_not_return",
-      "dialog_node": "node_2_1571230646256",
-      "previous_sibling": "node_2_1571230601633"
+      "dialog_node": "node_7_1602156708513"
     },
     {
       "type": "standard",
-      "title": "Anything else",
+      "title": "Ja",
       "output": {
-        "text": {
-          "values": [
-            "I didn't understand. You can try rephrasing.",
-            "Can you reword your statement? I'm not understanding.",
-            "I didn't get your meaning."
-          ],
-          "selection_policy": "sequential"
-        }
+        "generic": []
       },
-      "conditions": "anything_else",
-      "dialog_node": "Anything else",
-      "previous_sibling": "Welcome"
+      "parent": "node_6_1602156886933",
+      "conditions": "@MitarbeiterYesNo:Ja",
+      "dialog_node": "node_7_1602156950648"
+    },
+    {
+      "type": "standard",
+      "title": "Ja",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1602165679203",
+      "conditions": "@MitarbeiterYesNo:Ja",
+      "dialog_node": "node_7_1602165773575"
+    },
+    {
+      "type": "standard",
+      "title": "Prof. Dr. Dominik Große Holtforth",
+      "output": {
+        "generic": [
+          {
+            "title": "„Do what you love and love what you do“ – getreu dem Lebensmotto von Steve Jobs lebte und wirkte auch Prof. Dr. Dominik Große Holtforth, der ein großer Fan des Apple-Gründers war. Prof. Große Holtforth war wissbegierig, engagiert und hilfsbereit. Er war ein Wissenschaftler aus Leidenschaft, der nicht in einem Elfenbeinturm saß, sondern immer auch den Bezug zur Praxis suchte.",
+            "source": "https://ecommerceinstitut.de/wp-content/uploads/2011/09/Q5C8759-e1448379812852.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": " E-Mail: <a href=\"mailto:info\\@ecommerceinstitut.com\">info\\@ecommerceinstitut.com</a>\nWeitere Infos: <a href=\"https://ecommerceinstitut.de/e-commerce-institut/prof-dr-dominik-grosse-holtforth/\" >Prof. Dr. Dominik Große Holtforth</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ja",
+                "value": {
+                  "input": {
+                    "text": "Ja"
+                  }
+                }
+              },
+              {
+                "label": "Nein",
+                "value": {
+                  "input": {
+                    "text": "Nein"
+                  }
+                }
+              }
+            ],
+            "description": "Haben Sie nach diesem Mitarbeiter gesucht?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1602156806741",
+      "conditions": "@Mitarbeiter:(Prof. Dr. Dominik Große Holtforth)",
+      "dialog_node": "node_7_1602428715412",
+      "previous_sibling": "node_4_1602169351030"
+    },
+    {
+      "type": "standard",
+      "title": "Natália Manczyk",
+      "output": {
+        "generic": [
+          {
+            "title": "Natália Manczyk ist seit mehr als 13 Jahren Journalistin und studiert den Master in Medien- und Kommunikationsmanagement in Berlin. Sie arbeitet seit vier Jahren mit der WordPress-Plattform und der SEO-Optimierung und arbeitet seit Juli 2020 für das E-Commerce-Institut.",
+            "source": "https://ecommerceinstitut.de/wp-content/uploads/2020/07/Natalia-Manczyk_E-Commerce_Institut.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": " E-Mail: <a href=\"mailto:info\\@ecommerceinstitut.com\">info\\@ecommerceinstitut.com</a>\nWeitere Infos: <a href=\"https://ecommerceinstitut.de/studentische-hilfskraefte/\" >Studentische Hilfskräfte</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Haben Sie nach diesem Mitarbeiter gesucht?",
+            "options": [
+              {
+                "label": "Ja",
+                "value": {
+                  "input": {
+                    "text": "Ja"
+                  }
+                }
+              },
+              {
+                "label": "Nein",
+                "value": {
+                  "input": {
+                    "text": "Nein"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1602156806741",
+      "conditions": "@Mitarbeiter:(Natália Manczyk)",
+      "dialog_node": "node_7_1602430508790",
+      "previous_sibling": "node_10_1602429093321"
+    },
+    {
+      "type": "standard",
+      "title": "Studenten",
+      "parent": "node_3_1602433561091",
+      "dialog_node": "node_7_1602435085533",
+      "previous_sibling": "node_6_1602435055980"
+    },
+    {
+      "type": "standard",
+      "title": "Ja",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das freut mich 👍🏼 Folgen Sie uns jetzt und und bleiben Sie immer up-to-date! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1602435243730",
+      "conditions": "@Instagram:Ja",
+      "dialog_node": "node_7_1602435617844"
+    },
+    {
+      "type": "standard",
+      "title": "Digital Management (berufsbegleitend)",
+      "parent": "node_5_1602435322741",
+      "dialog_node": "node_7_1602435923936",
+      "previous_sibling": "node_4_1602435916630"
+    },
+    {
+      "type": "standard",
+      "title": "Ja",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das freut mich 👍🏼 Folgen Sie uns jetzt und und bleiben Sie immer up-to-date! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1602442555108",
+      "conditions": "@XING:Ja",
+      "dialog_node": "node_7_1602443021265"
+    },
+    {
+      "type": "standard",
+      "parent": "node_4_1602156806741",
+      "dialog_node": "node_7_1602443687743",
+      "previous_sibling": "node_7_1602430508790"
+    },
+    {
+      "type": "standard",
+      "title": "Presse",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<a href=\"https://ecommerceinstitut.de/presse/\" >Hier</a> finden Sie alles, was Sie für einen Bericht über das E-Commerce Institut benötigen. Ob unser Logo in verschiedenen Dateiformaten, Bildmaterial, Pressetexte oder die Unternehmenspräsentation – diese Sammlung wird laufend ergänzt und steht Ihnen zum kostenfreien Download zur Verfügung."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Haben Sie gefunden, was Sie gesucht haben?",
+            "options": [
+              {
+                "label": "Ja",
+                "value": {
+                  "input": {
+                    "text": "Ja"
+                  }
+                }
+              },
+              {
+                "label": "Nein",
+                "value": {
+                  "input": {
+                    "text": "Nein"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1602519360759",
+      "conditions": "#Presse",
+      "dialog_node": "node_8_1602432983796",
+      "previous_sibling": "node_6_1602435516394"
+    },
+    {
+      "type": "standard",
+      "title": "Start-Ups",
+      "parent": "node_3_1602433561091",
+      "dialog_node": "node_8_1602435201247",
+      "previous_sibling": "node_2_1602435136379"
+    },
+    {
+      "type": "standard",
+      "title": "Nein",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oh, das tut mir Leid! 🙁 Versuchen Sie es bitte erneut mit einem anderen Wortlaut. Ich bin leider noch nicht perfekt, lerne aber täglich dazu. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1602442555108",
+      "conditions": "@XING:Nein",
+      "dialog_node": "node_8_1602443097479",
+      "previous_sibling": "node_7_1602443021265"
     },
     {
       "type": "folder",
-      "title": "FoodGetter",
-      "dialog_node": "node_2_1571230601633"
+      "title": "Social Media",
+      "conditions": "",
+      "dialog_node": "node_8_1602446785259",
+      "previous_sibling": "node_9_1602519360759"
+    },
+    {
+      "type": "standard",
+      "title": "Mitarbeiterinfo",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1602517247505",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1602156806741"
+      },
+      "conditions": "@AnythingElse:Mitarbeiterinfo",
+      "dialog_node": "node_8_1602519261516",
+      "previous_sibling": "node_5_1602519195400"
+    },
+    {
+      "type": "standard",
+      "title": "Prof. Dr. Geibel",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1602156791421",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1602156886933"
+      },
+      "conditions": "#Geibel",
+      "dialog_node": "node_9_1602158317630",
+      "previous_sibling": "node_4_1602156806741"
+    },
+    {
+      "type": "standard",
+      "title": "Nein",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1602165679203",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1602165626283"
+      },
+      "conditions": "@MitarbeiterYesNo:Nein",
+      "dialog_node": "node_9_1602165850545",
+      "previous_sibling": "node_7_1602165773575"
+    },
+    {
+      "type": "standard",
+      "title": "Nein",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_10_1602166154121",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1602165626283"
+      },
+      "conditions": "@MitarbeiterYesNo:Nein",
+      "dialog_node": "node_9_1602166483759",
+      "previous_sibling": "node_1_1602166405589"
+    },
+    {
+      "type": "standard",
+      "title": "Workshop",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_3_1602165626283",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1602165679203"
+      },
+      "conditions": "@Angebote:Workshop",
+      "dialog_node": "node_9_1602166575926",
+      "previous_sibling": "node_10_1602166154121"
+    },
+    {
+      "type": "standard",
+      "title": "Ja",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_4_1602169351030",
+      "conditions": "@MitarbeiterYesNo:Ja",
+      "dialog_node": "node_9_1602170462680"
+    },
+    {
+      "type": "standard",
+      "title": "Ja",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Super! Schön, dass ich weiter helfen konnte."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1602430508790",
+      "conditions": "@MitarbeiterYesNo:Ja",
+      "dialog_node": "node_9_1602431310148"
+    },
+    {
+      "type": "standard",
+      "parent": "node_10_1602429093321",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_4_1602156806741"
+      },
+      "conditions": "#response_no",
+      "dialog_node": "node_9_1602431510338",
+      "previous_sibling": "node_4_1602431082705"
+    },
+    {
+      "type": "standard",
+      "title": "Betriebswirtschaftslehre",
+      "parent": "node_5_1602435319818",
+      "dialog_node": "node_9_1602435747091",
+      "previous_sibling": "node_10_1602435744392"
+    },
+    {
+      "type": "standard",
+      "title": "Nein",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1602512521883",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1602511956079"
+      },
+      "conditions": "@MitarbeiterYesNo:Nein",
+      "dialog_node": "node_9_1602512862725",
+      "previous_sibling": "node_2_1602512793112"
+    },
+    {
+      "type": "folder",
+      "title": "Website Inhalte",
+      "dialog_node": "node_9_1602519360759",
+      "previous_sibling": "node_7_1602156708513"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1592323784519",
+      "variable": "$number",
+      "dialog_node": "slot_2_1592324582366",
+      "previous_sibling": "slot_9_1592324543842"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1592323784519",
+      "variable": "$time",
+      "dialog_node": "slot_9_1592324543842",
+      "previous_sibling": "node_5_1546530407565"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, I'm Frits, the Fresenius Service Lounge Assistant :)\nHow can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1592322347489",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1546532706022"
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome",
+      "digress_out": "allow_all"
     }
   ],
-  "workspace_id": "58c5e2fb-d061-4dfb-a9b2-d2fadfca49e8",
   "counterexamples": [],
   "system_settings": {
-    "spelling_auto_correct": true
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "system_entities": {
+      "enabled": false
+    }
   },
   "learning_opt_out": false,
-  "status": "Available"
+  "name": "Neu-E-Commerce",
+  "language": "en",
+  "description": ""
 }

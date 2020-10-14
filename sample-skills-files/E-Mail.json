@@ -1,0 +1,990 @@
+{
+  "intents": [
+    {
+      "intent": "add_reminder",
+      "examples": [
+        {
+          "text": "book a room"
+        },
+        {
+          "text": "can you remind me to call the doctor tomorrow?"
+        },
+        {
+          "text": "can you remind me to put the clothes in the dryer when I get home?"
+        },
+        {
+          "text": "I need to remember to pay the bills tonight"
+        },
+        {
+          "text": "I need to talk to John tonight, can you remind me?"
+        },
+        {
+          "text": "remind me to look for flights for Florida"
+        },
+        {
+          "text": "remind me to take out the trash"
+        }
+      ],
+      "description": "Create a reminder to do something. I'll send myself an email."
+    },
+    {
+      "intent": "Angebote",
+      "examples": [
+        {
+          "text": "Angebote",
+          "mentions": [
+            {
+              "entity": "Angebote",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Beratung",
+          "mentions": [
+            {
+              "entity": "Angebote",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ich brauche Beratung",
+          "mentions": [
+            {
+              "entity": "Angebote",
+              "location": [
+                12,
+                20
+              ]
+            },
+            {
+              "entity": "Angebote",
+              "location": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ich möchte studieren",
+          "mentions": [
+            {
+              "entity": "Angebote",
+              "location": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Informationen über Angebote",
+          "mentions": [
+            {
+              "entity": "Angebote",
+              "location": [
+                0,
+                13
+              ]
+            },
+            {
+              "entity": "Angebote",
+              "location": [
+                19,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Strategie",
+          "mentions": [
+            {
+              "entity": "Angebote",
+              "location": [
+                0,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Strategy",
+          "mentions": [
+            {
+              "entity": "Angebote",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Studium",
+          "mentions": [
+            {
+              "entity": "Angebote",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Workshop",
+          "mentions": [
+            {
+              "entity": "Angebote",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Auskunft",
+      "examples": [
+        {
+          "text": "Auskunft"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Firmenname",
+      "examples": [
+        {
+          "text": "Beispiel KG",
+          "mentions": [
+            {
+              "entity": "Firmenname",
+              "location": [
+                0,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Bitte für den Namen: Starbucks",
+          "mentions": [
+            {
+              "entity": "Firmenname",
+              "location": [
+                14,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Der Name ist: Bayer",
+          "mentions": [
+            {
+              "entity": "Firmenname",
+              "location": [
+                4,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Der Name lautet: Apple Inc.",
+          "mentions": [
+            {
+              "entity": "Firmenname",
+              "location": [
+                17,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Müller GmbH",
+          "mentions": [
+            {
+              "entity": "Firmenname",
+              "location": [
+                0,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Name: Bosh AG",
+          "mentions": [
+            {
+              "entity": "Firmenname",
+              "location": [
+                6,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Unser Name ist: Microsoft",
+          "mentions": [
+            {
+              "entity": "Firmenname",
+              "location": [
+                16,
+                25
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "response_change",
+      "examples": [
+        {
+          "text": "change it"
+        },
+        {
+          "text": "I want to modify"
+        },
+        {
+          "text": "I want to rewrite it"
+        },
+        {
+          "text": "I want to set a different one"
+        },
+        {
+          "text": "let's try again"
+        },
+        {
+          "text": "modify"
+        },
+        {
+          "text": "no, I want to change it"
+        },
+        {
+          "text": "no, I want to do it again"
+        },
+        {
+          "text": "no, let me tell you again"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "response_no",
+      "examples": [
+        {
+          "text": "exit"
+        },
+        {
+          "text": "forget it"
+        },
+        {
+          "text": "I don't think so"
+        },
+        {
+          "text": "incorrect"
+        },
+        {
+          "text": "nah"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "nope"
+        },
+        {
+          "text": "not"
+        },
+        {
+          "text": "not really"
+        },
+        {
+          "text": "not right"
+        },
+        {
+          "text": "quit"
+        },
+        {
+          "text": "scratch that"
+        },
+        {
+          "text": "that's wrong"
+        }
+      ]
+    },
+    {
+      "intent": "response_yes",
+      "examples": [
+        {
+          "text": "correct"
+        },
+        {
+          "text": "exactly"
+        },
+        {
+          "text": "I guess"
+        },
+        {
+          "text": "I suppose"
+        },
+        {
+          "text": "of course"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "okay"
+        },
+        {
+          "text": "okie dokie"
+        },
+        {
+          "text": "perfect"
+        },
+        {
+          "text": "right"
+        },
+        {
+          "text": "sounds good"
+        },
+        {
+          "text": "sure"
+        },
+        {
+          "text": "that's right"
+        },
+        {
+          "text": "yah"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "yup"
+        }
+      ]
+    },
+    {
+      "intent": "RoomBooking",
+      "examples": [
+        {
+          "text": "I need a room"
+        },
+        {
+          "text": "I need a Workspace"
+        },
+        {
+          "text": "I want to book a room"
+        },
+        {
+          "text": "Room"
+        },
+        {
+          "text": "Where can I get a room"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Angebote",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Angebote",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Beratung",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "brauche Beratung",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Informationen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "möchte studieren",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Strategie",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Strategy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Studium",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Workshop",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "email",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "mail",
+          "patterns": [
+            "\\b[A-Za-z0-9._%+-]+@([A-Za-z0-9-]+\\.)+[A-Za-z]{2,}\\b"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Firmenname",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "AG",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Apple",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Apple Inc",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Beispiel KG",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bosh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bosh AG",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Microsoft",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Müller GmbH",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Name ist: Bayer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Namen: Starbucks",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, I didn't get that. Right now, I can only help you with reminders. You can say something like 'remind me to call Mom' or 'can you remind me to take out the trash?'..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1592322347489",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_3_1592323784519"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Nennen Sie mir eine E-Mail Adresse, an die wir uns wenden dürfen."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1592324499993",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1592324500011",
+      "previous_sibling": "handler_4_1592324500011"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1602672510494",
+      "context": {
+        "Firmenname": "@Firmenname"
+      },
+      "conditions": "@Firmenname",
+      "event_name": "input",
+      "dialog_node": "handler_1_1602672510584"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Bitte nennen Sie uns Ihren Firmennamen."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_9_1602672510494",
+      "context": {},
+      "event_name": "focus",
+      "dialog_node": "handler_3_1602672510584",
+      "previous_sibling": "handler_1_1602672510584"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1592324499993",
+      "context": {
+        "mail": "@email.literal"
+      },
+      "conditions": "@email.literal",
+      "event_name": "input",
+      "dialog_node": "handler_4_1592324500011"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1602673922361",
+      "context": {
+        "Angebote": "@Angebote"
+      },
+      "conditions": "@Angebote",
+      "event_name": "input",
+      "dialog_node": "handler_5_1602673922415"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1602673644868",
+      "context": {
+        "Angebote_2": "@Angebote"
+      },
+      "conditions": "@Angebote",
+      "event_name": "input",
+      "dialog_node": "handler_6_1602673644962"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Nennen Sie mir Bitte zunächst ein Schlagwort, über das Sie gerne weitere Informationen erhalten möchten."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1602673922361",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1602673922415",
+      "previous_sibling": "handler_5_1602673922415"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Nennen Sie mir Bitte zunächst ein Schlagwort, über das Sie gerne weitere Informationen erhalten möchten."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1602673644868",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1602673644962",
+      "previous_sibling": "handler_6_1602673644962"
+    },
+    {
+      "type": "standard",
+      "title": "No, change it",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK, we can change it... What would you want me to remind you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1546530407565",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1546542011168"
+      },
+      "conditions": "#response_change",
+      "dialog_node": "node_1_1546532166373",
+      "previous_sibling": "node_6_1546531855877"
+    },
+    {
+      "type": "standard",
+      "title": "Email sent",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vielen Dank. Ihr Anliegen wird an einen unserer Mitarbeiter weitergeleitet."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1546531855877",
+      "metadata": {},
+      "conditions": "$cf_response && $cf_response.code == 200",
+      "dialog_node": "node_1_1546534141746"
+    },
+    {
+      "type": "standard",
+      "title": "No, cancel",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK, I'll be here in case you'd like me to send you any other reminders..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1546530407565",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_2_1546532432186",
+      "previous_sibling": "node_1_1546532166373"
+    },
+    {
+      "type": "standard",
+      "title": "Email not sent",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Uh oh... something happened... Try again later..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1546531855877",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_2_1546534218626",
+      "previous_sibling": "node_1_1546534141746"
+    },
+    {
+      "type": "standard",
+      "title": "Set reminder",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_3_1592323784519",
+      "context": {
+        "reminder": "New booking request"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1546530407565"
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1546542011168"
+    },
+    {
+      "type": "folder",
+      "title": "Send E-Mail Reminder",
+      "dialog_node": "node_2_1592322347489"
+    },
+    {
+      "type": "standard",
+      "title": "Initial configuration",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1592322347489",
+      "context": {
+        "private": {
+          "cf_creds": {
+            "api_key": "98f1799a-129e-4c23-bf65-a436e6cdb036:pjv4yNPj53AiLA6KjPbT293eI7wSlSjTSgoxnrqeRg6SVeCutoo87OBZxJPdzSDN"
+          }
+        },
+        "reminder": null,
+        "destination_email": "e.commercecologne\\@gmail.com"
+      },
+      "metadata": {},
+      "conditions": "false",
+      "dialog_node": "node_3_1546532706022",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "frame",
+      "title": "Auskunft",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1592322347489",
+      "context": {
+        "mail": "<? input.text.extract('[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+(\\.[a-zA-Z]+){1,}',0)?>"
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1546542011168"
+      },
+      "conditions": "#Auskunft",
+      "dialog_node": "node_3_1592323784519",
+      "previous_sibling": "node_3_1546532706022"
+    },
+    {
+      "type": "standard",
+      "title": "Confirm reminder",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Soll Ihr Anliegen an einen unserer Mitarbeiter weitergeleitet werden?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ja, bitte senden.",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "Nein, ich möchte etwas ändern.",
+                "value": {
+                  "input": {
+                    "text": "change"
+                  }
+                }
+              },
+              {
+                "label": "Nein, bitte abbrechen.",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1592323784519",
+      "metadata": {},
+      "conditions": "$reminder != null",
+      "dialog_node": "node_5_1546530407565",
+      "previous_sibling": "node_2_1546542011168"
+    },
+    {
+      "type": "standard",
+      "title": "Yes, send email",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1546530407565",
+      "actions": [
+        {
+          "name": "kracht@ecommerceinstitut.de_dev/Examples/Test",
+          "type": "server",
+          "parameters": {
+            "mail": "$mail",
+            "email": "$destination_email",
+            "Angebote": "$Angebote",
+            "reminder": "$reminder",
+            "Firmenname": "$Firmenname",
+            "conversation_id": "$conversation_id"
+          },
+          "credentials": "$private.cf_creds",
+          "result_variable": "context.cf_response"
+        }
+      ],
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#response_yes",
+      "dialog_node": "node_6_1546531855877"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1592323784519",
+      "variable": "$Angebote_2",
+      "dialog_node": "slot_10_1602673644868",
+      "previous_sibling": "node_5_1546530407565"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1592323784519",
+      "variable": "$mail",
+      "dialog_node": "slot_4_1592324499993",
+      "previous_sibling": "slot_9_1602672510494"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1592323784519",
+      "variable": "$Angebote",
+      "dialog_node": "slot_5_1602673922361",
+      "previous_sibling": "slot_10_1602673644868"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1592323784519",
+      "variable": "$Firmenname",
+      "dialog_node": "slot_9_1602672510494",
+      "previous_sibling": "slot_5_1602673922361"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, I'm Frits, the Fresenius Service Lounge Assistant :)\nHow can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1592322347489",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1546532706022"
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome",
+      "digress_out": "allow_all"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "system_entities": {
+      "enabled": false
+    }
+  },
+  "learning_opt_out": false,
+  "name": "E-Mail-E-Commerce",
+  "language": "en",
+  "description": ""
+}
